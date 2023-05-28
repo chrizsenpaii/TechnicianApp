@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ComputechFinale</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="location">
+        <item>Lacson</item>
+        <item>Villamonte</item>
+        <item>Eroreco</item>
+        <item>Granada</item>
+        <item>Fortune Towne</item>
+    </string-array>
+    <string-array name="fee">
+        <item>100</item>
+        <item>150</item>
+        <item>180</item>
+        <item>250</item>
+        <item>200</item>
+    </string-array>
+
+</resources>

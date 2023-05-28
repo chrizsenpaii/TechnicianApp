@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComputechFinalist"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity_see_tech"
+            android:exported="false" />
+        <activity
+            android:name=".messages_tech"
+            android:exported="false" />
+        <activity
+            android:name=".message_show"
+            android:exported="false" />
+        <activity
+            android:name=".activity_show"
+            android:exported="false" />
+        <activity
+            android:name=".activity_tech"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".Rate"
+            android:exported="false" />
+        <activity
+            android:name=".Avail"
+            android:exported="false" />
+        <activity
+            android:name=".DetailTech"
+            android:exported="false" />
+        <activity
+            android:name=".account_tech"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu_tech"
+            android:exported="false" />
+        <activity
+            android:name=".signuptech"
+            android:exported="false" />
+        <activity
+            android:name=".logintech"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".messages"
+            android:exported="false" />
+        <activity
+            android:name=".activity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".main_menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

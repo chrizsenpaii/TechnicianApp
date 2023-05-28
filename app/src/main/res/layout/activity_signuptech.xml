@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".signuptech">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="24dp"
+                android:backgroundTint="@color/blue"
+                android:background="@drawable/border">
+                <ImageView
+                    android:layout_width="109dp"
+                    android:layout_height="122dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo" />
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/anton"
+                    android:gravity="center"
+                    android:text="Sign Up Technician"
+                    android:textColor="#14213d"
+                    android:textSize="40dp"
+
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edFullnametech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/name"
+                        android:hint="Fullname"
+                        android:inputType="text"
+                        android:textStyle="bold"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edusertech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/user"
+                        android:hint="Username"
+                        android:inputType="text"
+                        android:textStyle="bold"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edEmailtech"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/mail2"
+                        android:hint="Email"
+                        android:inputType="text"
+                        android:textStyle="bold"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/place"
+                        android:hint="City"
+                        android:id="@+id/edCitytech"
+                        android:inputType="text"
+                        android:textStyle="bold"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/phone2"
+                        android:hint="Phone"
+                        android:id="@+id/edphonetech"
+                        android:inputType="text"
+                        android:textStyle="bold"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    app:passwordToggleTint="#14123D"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:id="@+id/edPasstech"
+                        android:background="@drawable/border"
+                        android:drawableRight="@drawable/place"
+                        android:inputType="text"
+                        android:textStyle="bold"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/btnSignuptech"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:text="Sign Up"
+                    android:backgroundTint="#14213d"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+
+                        android:textSize="15dp"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Already have an account?" />
+                    <TextView
+                        android:gravity="center"
+                        android:textColor="#14213d"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/tvLogtech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Log in" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
